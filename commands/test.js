@@ -5,6 +5,6 @@ module.exports = {
         .setName('test')
         .setDescription('Replies with gwa'),
     async execute(interaction) {
-        await interaction.reply('gwa');
+        await interaction.reply(`gwa`);
     },
 };
