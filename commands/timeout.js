@@ -18,7 +18,7 @@ module.exports = {
             const reason = interaction.options.getString(`reason`)
             const time = interaction.options.getString(`time`)
             const milliseconds = ms(time);
-            await targetedChannel.send(`${target.tag} has been sent to Timeout for ${milliseconds}s Reason: ${reason}. \nStriked User ID: ${target.id} | Responsible Moderator: ${interaction.user.tag}`)
+            await targetedChannel.send(`${target.tag} has been sent to Timeout for ${milliseconds/60000} minutes. Reason: ${reason}. \nStriked User ID: ${target.id} | Responsible Moderator: ${interaction.user.tag}`)
             await interaction.reply(`${target.tag} has been sent to Timeout.`)
             memberTarget.timeout(milliseconds, reason)
         }
