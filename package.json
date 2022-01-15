@@ -1,0 +1,22 @@
+{
+  "name": "flamebotv2",
+  "version": "1.0.0",
+  "description": "flamebotv2",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlamemasterNXF/FlameBotV2.git"
+  },
+  "author": "FlamemasterNXF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlamemasterNXF/FlameBotV2/issues"
+  },
+  "homepage": "https://github.com/FlamemasterNXF/FlameBotV2#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
